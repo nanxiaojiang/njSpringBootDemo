@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01_springcloud_service_proider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01_springcloud_service_provider_02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_springcloud_service_custom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03_springcloud_eureka_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04_springcloud_hystrix_dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_springcloud_service_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06_springcloud_api_gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_springcloud_config_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08_springcloud_config_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/29-nacos-discovery-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/29-nacos-discovery-customer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/29-nacos-discovery-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis_SpringBoot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootNjTestOne" charset="UTF-8" />
+  </component>
+</project>
