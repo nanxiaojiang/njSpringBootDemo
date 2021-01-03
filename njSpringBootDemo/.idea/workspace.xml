@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03e25aab-6d49-4601-bf5b-23f058fb6c28" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/SpringBootNjTestOne/target/" />
+    <ignored path="$PROJECT_DIR$/Mybatis_SpringBoot/target/" />
+    <ignored path="$PROJECT_DIR$/01_springcloud_service_proider/target/" />
+    <ignored path="$PROJECT_DIR$/02_springcloud_service_customer/target/" />
+    <ignored path="$PROJECT_DIR$/02_springcloud_service_custom/target/" />
+    <ignored path="$PROJECT_DIR$/03_springcloud_eureka_server/target/" />
+    <ignored path="$PROJECT_DIR$/01_springcloud_service_provider_02/target/" />
+    <ignored path="$PROJECT_DIR$/04_springcloud_hystrix_dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/05_springcloud_service_feign/target/" />
+    <ignored path="$PROJECT_DIR$/06_springcloud_api_gateway/target/" />
+    <ignored path="$PROJECT_DIR$/07_springcloud_config_server/target/" />
+    <ignored path="$PROJECT_DIR$/08_springcloud_config_client/target/" />
+    <ignored path="$PROJECT_DIR$/29-nacos-discovery-provider/target/" />
+    <ignored path="$PROJECT_DIR$/29-nacos-discovery-commons/target/" />
+    <ignored path="$PROJECT_DIR$/29-nacos-discovery-customer/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1118133429">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="84" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.1" value="49" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="10" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.opened" value="91" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1-SNAPSHOT" value="1" />
+          <entry key="class" value="31" />
+          <entry key="factories" value="3" />
+          <entry key="groovy" value="1" />
+          <entry key="java" value="171" />
+          <entry key="js" value="1" />
+          <entry key="json" value="3" />
+          <entry key="pom" value="17" />
+          <entry key="properties" value="68" />
+          <entry key="xml" value="74" />
+          <entry key="xsd" value="1" />
+          <entry key="yaml" value="1" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="31" />
+          <entry key="JAVA" value="171" />
+          <entry key="JSON" value="3" />
+          <entry key="Properties" value="68" />
+          <entry key="Scratch" value="2" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="92" />
+          <entry key="YAML" value="4" />
+          <entry key="spring.factories" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="40" />
+          <entry key="java" value="4503" />
+          <entry key="properties" value="1482" />
+          <entry key="xml" value="718" />
+          <entry key="yml" value="80" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4503" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Properties" value="1482" />
+          <entry key="XML" value="718" />
+          <entry key="YAML" value="80" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="njSpringBootDemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/29-nacos-discovery-customer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/29-nacos-discovery-customer/src/main/java/com/nj/cloudalibaba/controller/CloudAlibabaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>server.po</find>
+      <find>server.servlet.</find>
+      <find>servlet.se</find>
+      <find>servlet</find>
+      <find>servlet.</find>
+      <find>path</find>
+      <find>80</find>
+      <find>getQuestAll</find>
+      <find>customer</find>
+      <find>putProviderSpringCloudUser</find>
+      <find>spring-c</find>
+      <find>spring-clo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\IDEAWorkSpace\work\njSpringBootDemo\02_springcloud_service_customer</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/03_springcloud_eureka_server/src/main/java/com/nj/springcloud/ApplicationEurekaServer8761.java" />
+        <option value="$PROJECT_DIR$/03_springcloud_eureka_server/src/main/java/com/nj/springcloud/ApplicationEurekaServer8762.java" />
+        <option value="$PROJECT_DIR$/03_springcloud_eureka_server/src/main/resources/application-erueka8761.properties" />
+        <option value="$PROJECT_DIR$/03_springcloud_eureka_server/src/main/resources/application-erueka8762.properties" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_provider_02/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_proider/pom.xml" />
+        <option value="$PROJECT_DIR$/03_springcloud_eureka_server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_proider/src/main/java/com/nj/springcloud/ApplicationProvider.java" />
+        <option value="$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/domain/User.java" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_proider/src/main/java/com/nj/springcloud/domain/User.java" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_provider_02/src/main/java/com/nj/springcloud/domain/User.java" />
+        <option value="$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/ApplicationCustomer.java" />
+        <option value="$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/common/MyHystrixCommand.java" />
+        <option value="$PROJECT_DIR$/04_springcloud_hystrix_dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/04_springcloud_hystrix_dashboard/src/main/java/SpringCloudHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/04_springcloud_hystrix_dashboard/src/main/java/com/nj/springcloud/SpringCloudHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/04_springcloud_hystrix_dashboard/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/02_springcloud_service_custom/pom.xml" />
+        <option value="$PROJECT_DIR$/05_springcloud_service_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/05_springcloud_service_feign/src/main/java/com/nj/springcloud/controller/SpringCloudFeignController.java" />
+        <option value="$PROJECT_DIR$/05_springcloud_service_feign/src/main/java/com/nj/springcloud/SpringCloudFeignApplicationTest.java" />
+        <option value="$PROJECT_DIR$/05_springcloud_service_feign/src/main/java/com/nj/springcloud/fallback/MyFallBack.java" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_proider/src/main/java/com/nj/springcloud/controller/SpringcloudProviderController.java" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_provider_02/src/main/java/com/nj/springcloud/controller/SpringcloudProviderController.java" />
+        <option value="$PROJECT_DIR$/05_springcloud_service_feign/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/05_springcloud_service_feign/src/main/java/com/nj/springcloud/fallback/MyFallBackFactory.java" />
+        <option value="$PROJECT_DIR$/05_springcloud_service_feign/src/main/java/com/nj/springcloud/service/SpringCloudFeignService.java" />
+        <option value="$PROJECT_DIR$/06_springcloud_api_gateway/src/main/java/com/nj/springcloud/SpringCloudZuulApplication.java" />
+        <option value="$PROJECT_DIR$/06_springcloud_api_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/07_springcloud_config_server/src/main/java/com/nj/cloud/CloudServerApplication.java" />
+        <option value="$PROJECT_DIR$/08_springcloud_config_client/src/main/java/com/nj/springcloud/CloudClientApplication.java" />
+        <option value="$PROJECT_DIR$/08_springcloud_config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/08_springcloud_config_client/src/main/java/com/nj/springcloud/controller/ConfigController.java" />
+        <option value="$PROJECT_DIR$/07_springcloud_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/07_springcloud_config_server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/08_springcloud_config_client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/03_springcloud_eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/02_springcloud_service_custom/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/01_springcloud_service_proider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/controller/SpringCloudCustomer.java" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-provider/src/main/java/com/cloudalbab/AlibabCloudApplication.java" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-provider/src/main/java/com/cloudalbab/AlibabaCloudApplication.java" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/configer/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-provider/src/main/java/com/cloudalbab/controller/EchoController.java" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-customer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-customer/src/main/java/com/nj/cloudalibaba/Application.java" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-customer/src/main/java/com/nj/cloudalibaba/controller/CloudAlibabaController.java" />
+        <option value="$PROJECT_DIR$/29-nacos-discovery-customer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="29-nacos-discovery-customer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="29-nacos-discovery-customer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="205" />
+    <option name="y" value="115" />
+    <option name="width" value="1305" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="njSpringBootDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="njSpringBootDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="HystrixCommand&#9;PSI&#9;JAVA://com.netflix.hystrix.HystrixCommand" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/29-nacos-discovery-commons" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkSpace\work\njSpringBootDemo\29-nacos-discovery-provider\src\main\java\com\cloudalbab\controller" />
+      <recent name="E:\IDEAWorkSpace\work\njSpringBootDemo\03_springcloud_eureka_server\src\main\resources" />
+      <recent name="E:\IDEAWorkSpace\work\njSpringBootDemo\Mybatis_SpringBoot\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nj.springcloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkSpace\work\njSpringBootDemo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (2)">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="_02_springcloud_service_customer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="_02_springcloud_service_customer" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maven" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/02_springcloud_service_custom" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AlibabaCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="29-nacos-discovery-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloudalbab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloudalbab.AlibabaCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="03_springcloud_eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.ApplicationEurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="29-nacos-discovery-customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.cloudalibaba.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="02_springcloud_service_custom" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.ApplicationCustomer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationEurekaServer8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="03_springcloud_eureka_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.ApplicationEurekaServer8761" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=erueka8761" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationEurekaServer8762" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="03_springcloud_eureka_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.ApplicationEurekaServer8762" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=erueka8762" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationProvider (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="01_springcloud_service_provider_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.ApplicationProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="01_springcloud_service_proider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.ApplicationProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="08_springcloud_config_client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.CloudClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="07_springcloud_config_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nj.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.cloud.CloudServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudFeignApplicationTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="05_springcloud_service_feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.SpringCloudFeignApplicationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="04_springcloud_hystrix_dashboard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.SpringCloudHystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="06_springcloud_api_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nj.springcloud.SpringCloudZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.maven" />
+      <item itemvalue="Spring Boot.ApplicationProvider" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.ApplicationEurekaServer8761" />
+      <item itemvalue="Spring Boot.ApplicationEurekaServer8762" />
+      <item itemvalue="Spring Boot.SpringCloudFeignApplicationTest" />
+      <item itemvalue="Spring Boot.SpringCloudZuulApplication" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.ApplicationProvider (1)" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixDashboardApplication" />
+      <item itemvalue="Spring Boot.CloudServerApplication" />
+      <item itemvalue="Spring Boot.CloudClientApplication" />
+      <item itemvalue="Spring Boot.AlibabaCloudApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AlibabaCloudApplication" />
+        <item itemvalue="Spring Boot.CloudClientApplication" />
+        <item itemvalue="Spring Boot.CloudServerApplication" />
+        <item itemvalue="Spring Boot.ApplicationProvider (1)" />
+        <item itemvalue="Spring Boot.SpringCloudHystrixDashboardApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03e25aab-6d49-4601-bf5b-23f058fb6c28" name="Default Changelist" comment="" />
+      <created>1607955892067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607955892067</updated>
+      <workItem from="1607955894166" duration="2443000" />
+      <workItem from="1608037297585" duration="994000" />
+      <workItem from="1608040466938" duration="2874000" />
+      <workItem from="1608044380555" duration="1543000" />
+      <workItem from="1608126163468" duration="231000" />
+      <workItem from="1608126408354" duration="24000" />
+      <workItem from="1608126437565" duration="35000" />
+      <workItem from="1608126493460" duration="134000" />
+      <workItem from="1608126631588" duration="24000" />
+      <workItem from="1608126709371" duration="5078000" />
+      <workItem from="1608217694562" duration="701000" />
+      <workItem from="1608298998208" duration="297000" />
+      <workItem from="1608345893066" duration="828000" />
+      <workItem from="1608346735453" duration="300000" />
+      <workItem from="1608347040874" duration="49000" />
+      <workItem from="1608347093174" duration="540000" />
+      <workItem from="1608347647249" duration="16000" />
+      <workItem from="1608347665717" duration="537000" />
+      <workItem from="1608348214882" duration="12751000" />
+      <workItem from="1608428220320" duration="544000" />
+      <workItem from="1608428775614" duration="4748000" />
+      <workItem from="1608437090324" duration="2103000" />
+      <workItem from="1608461670262" duration="486000" />
+      <workItem from="1608475749536" duration="713000" />
+      <workItem from="1608556565275" duration="1043000" />
+      <workItem from="1608557688108" duration="2546000" />
+      <workItem from="1608560312283" duration="2046000" />
+      <workItem from="1608562383588" duration="764000" />
+      <workItem from="1608563155113" duration="575000" />
+      <workItem from="1608563733796" duration="754000" />
+      <workItem from="1608564493208" duration="1926000" />
+      <workItem from="1608642317471" duration="395000" />
+      <workItem from="1608642764343" duration="152000" />
+      <workItem from="1608643045161" duration="7559000" />
+      <workItem from="1608729868934" duration="2592000" />
+      <workItem from="1608734509795" duration="1221000" />
+      <workItem from="1608909452583" duration="63000" />
+      <workItem from="1608950108803" duration="62000" />
+      <workItem from="1608950174406" duration="63000" />
+      <workItem from="1608950243060" duration="5044000" />
+      <workItem from="1608955315151" duration="6189000" />
+      <workItem from="1608974674313" duration="103000" />
+      <workItem from="1608974780193" duration="2913000" />
+      <workItem from="1608979224628" duration="3168000" />
+      <workItem from="1609035668109" duration="708000" />
+      <workItem from="1609036869592" duration="7000" />
+      <workItem from="1609037748202" duration="461000" />
+      <workItem from="1609038216937" duration="577000" />
+      <workItem from="1609038797542" duration="270000" />
+      <workItem from="1609039070471" duration="117000" />
+      <workItem from="1609039190316" duration="183000" />
+      <workItem from="1609039377405" duration="1018000" />
+      <workItem from="1609040399732" duration="538000" />
+      <workItem from="1609040944683" duration="259000" />
+      <workItem from="1609041207366" duration="57000" />
+      <workItem from="1609041267617" duration="1543000" />
+      <workItem from="1609042815713" duration="821000" />
+      <workItem from="1609044885516" duration="2093000" />
+      <workItem from="1609248864345" duration="97000" />
+      <workItem from="1609334019279" duration="28000" />
+      <workItem from="1609334347927" duration="156000" />
+      <workItem from="1609334508378" duration="229000" />
+      <workItem from="1609334743596" duration="34000" />
+      <workItem from="1609334806331" duration="7154000" />
+      <workItem from="1609343129968" duration="62000" />
+      <workItem from="1609343194028" duration="270000" />
+      <workItem from="1609343469748" duration="363000" />
+      <workItem from="1609469306912" duration="982000" />
+      <workItem from="1609470392426" duration="12472000" />
+      <workItem from="1609556385407" duration="2301000" />
+      <workItem from="1609594882255" duration="56000" />
+      <workItem from="1609594961411" duration="123000" />
+      <workItem from="1609595174040" duration="20000" />
+      <workItem from="1609595240238" duration="10000" />
+      <workItem from="1609595253228" duration="870000" />
+      <workItem from="1609596486778" duration="598000" />
+      <workItem from="1609597088352" duration="242000" />
+      <workItem from="1609597333308" duration="118000" />
+      <workItem from="1609597454718" duration="977000" />
+      <workItem from="1609598435444" duration="918000" />
+      <workItem from="1609599359134" duration="804000" />
+      <workItem from="1609600406637" duration="1213000" />
+      <workItem from="1609601727393" duration="1418000" />
+      <workItem from="1609640860809" duration="253000" />
+      <workItem from="1609641121802" duration="24000" />
+      <workItem from="1609641149868" duration="400000" />
+      <workItem from="1609641557560" duration="239000" />
+      <workItem from="1609641802707" duration="2829000" />
+      <workItem from="1609644748588" duration="122000" />
+      <workItem from="1609644873635" duration="105000" />
+      <workItem from="1609644981534" duration="2601000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 12m 46s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 13m 44s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 14m 12s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 19m 11s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 23m 58s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 34m 23s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 35m 00s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 35m 32s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 53m 51s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SringBootRedisTest_TestRedisSpringBoot - 2020.12.19 at 19h 54m 26s.xml">
+      <configuration name="SringBootRedisTest.TestRedisSpringBoot" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123911000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.23123324" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" sideWeight="0.50274724" side_tool="true" weight="0.3372396" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.34560907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41501418" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.34560907" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.32577905" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3294271" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.40951744" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.20576407" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" sideWeight="0.50274724" side_tool="true" weight="0.3372396" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.3711048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36685553" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50065106" side_tool="true" weight="0.25354108" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32577905" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3294271" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.386059" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mybatis_SpringBoot/src/test/java/com/nj/test/MydownBaiduSitemapGTestController.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mybatis_SpringBoot/src/test/java/com/nj/test/MydownBaiduSitemapGTestController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mybatis_SpringBoot/src/test/java/com/nj/test/SringBootRedisTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mybatis_SpringBoot/src/test/java/com/nj/test/SringBootRedisTest.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Mybatis_SpringBoot/src/main/java/com/nj/controller/TestSpringBootController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.3.RELEASE/spring-boot-dependencies-2.0.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="2627" column="36" selection-start-line="2627" selection-start-column="28" selection-end-line="2627" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.0.RELEASE/spring-boot-starter-parent-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.0.RELEASE/spring-boot-dependencies-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="171" column="17" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_springcloud_config_server/src/main/java/com/nj/springcloud.java" />
+    <entry file="file://$PROJECT_DIR$/04_springcloud_hystrix_dashboard/src/main/java/com/nj/springcloud/SpringCloudHystrixDashboardApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_springcloud_hystrix_dashboard/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_springcloud_service_feign/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_springcloud_config_server/src/main/java/com/nj/cloud/CloudServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_springcloud_config_client/src/main/java/com/nj/springcloud/CloudClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_springcloud_config_client/src/main/java/com/nj/springcloud/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_springcloud_config_client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_springcloud_config_server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_springcloud_config_client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_springcloud_service_provider_02/src/main/java/com/nj/springcloud/ApplicationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_springcloud_service_proider/src/main/java/com/nj/springcloud/ApplicationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_springcloud_eureka_server/src/main/java/com/nj/springcloud/ApplicationEurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_springcloud_eureka_server/src/main/resources/application-erueka8761.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_springcloud_eureka_server/src/main/resources/application-erueka8762.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_springcloud_eureka_server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_springcloud_service_proider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/ApplicationCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_springcloud_service_proider/src/main/java/com/nj/springcloud/controller/SpringcloudProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_springcloud_service_custom/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/model/RestObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/model/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/service/GoodsFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/service/configuration/FeignConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/service/fallback/EchoFeignServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/service/fallback/GoodsFeignServiceFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_springcloud_config_client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="44" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_springcloud_config_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_springcloud_api_gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_springcloud_service_feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/controller/SpringCloudCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_springcloud_service_custom/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_springcloud_eureka_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-provider/src/main/java/com/cloudalbab/AlibabaCloudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_springcloud_service_custom/src/main/java/com/nj/springcloud/configer/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.3.0.RELEASE/spring-boot-starter-parent-2.3.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-customer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-provider/src/main/java/com/cloudalbab/controller/EchoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.0.0.RELEASE/spring-cloud-starter-openfeign-2.0.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-customer/src/main/java/com/nj/cloudalibaba/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/src/main/java/com/bjpowernode/service/EchoFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-customer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-customer/src/main/java/com/nj/cloudalibaba/controller/CloudAlibabaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/29-nacos-discovery-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>29-nacos-discovery-commons</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.nj.controller.TestBoot",
+      "name": "nj",
+      "type": "com.nj.controller.TestBoot"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.nj.controller.TestBoot",
+      "name": "nj.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.nj.controller.TestBoot",
+      "name": "nj.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.nj.controller.TestBoot",
+      "name": "nj.zl",
+      "type": "java.lang.String"
+    }
+  ]
+}
