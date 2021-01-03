@@ -61,4 +61,9 @@ public class CloudAlibabaController {
     public String getTestString(){
         return "nanjiang";
     }
+
+    @RequestMapping("/getTestStrin2g")
+    public String getTestStrin2g(){
+        return "nanjiang2";
+    }
 }
