@@ -21,4 +21,9 @@ public class SpringCloudFeignController {
         String feign = springCloudFeignService.testFeign();
         return feign;
     }
+
+    @RequestMapping("/hello")
+    public String hello(){
+        return "hello web!!!";
+    }
 }
