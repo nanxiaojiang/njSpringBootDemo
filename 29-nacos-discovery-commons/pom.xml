@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bjpowernode</groupId>
+    <groupId>com.nj.cloudalibaba</groupId>
     <artifactId>29-nacos-discovery-commons</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>29-nacos-discovery-commons</name>
     <description>29-nacos-discovery-commons project for Spring Boot</description>

@@ -1,7 +1,7 @@
-package com.bjpowernode.service;
+package com.nj.cloudalibaba.service;
 
-import com.bjpowernode.service.configuration.FeignConfiguration;
-import com.bjpowernode.service.fallback.GoodsFeignServiceFallbackFactory;
+import com.nj.cloudalibaba.service.configuration.FeignConfiguration;
+import com.nj.cloudalibaba.service.fallback.GoodsFeignServiceFallbackFactory;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 

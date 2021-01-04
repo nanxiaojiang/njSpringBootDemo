@@ -1,13 +1,12 @@
 package com.nj.cloudalibaba.controller;
 
+//import com.nj.cloudalibaba.service.EchoFeignService;
+import com.nj.cloudalibaba.service.EchoFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -25,8 +24,8 @@ public class CloudAlibabaController {
     private RestTemplate restTemplate;
 
     //feign 的声明式调用
-//    @Autowired
-//    private EchoFeignService echoFeignService;
+    @Autowired(required = true)
+    private EchoFeignService echoFeignService;
 
     @Autowired
     private DiscoveryClient discoveryClient;
@@ -60,6 +59,38 @@ public class CloudAlibabaController {
     @RequestMapping("/getTestString")
     public String getTestString(){
         return "nanjiang";
+    }
+
+    @GetMapping("/notFound-feign")
+    public String notFound() {
+        return echoFeignService.notFound();
+    }
+
+    @GetMapping("/divide-feign")
+    public String divide(@RequestParam Integer a, @RequestParam Integer b) {
+        return echoFeignService.divide(a, b);
+    }
+
+    @GetMapping("/divide-feign2")
+    public String divide(@RequestParam Integer a) {
+        return echoFeignService.divide(a);
+    }
+
+    @GetMapping("/echo-feign/{str}")
+    public String feign(@PathVariable String str) {
+        return echoFeignService.echo(str);
+    }
+
+    @GetMapping("/services/{service}")
+    public Object client(@PathVariable String service) {
+        return discoveryClient.getInstances(service);
+    }
+
+    @GetMapping("/services")
+    public Object services() {
+        System.out.println(discoveryClient.description());
+        System.out.println(discoveryClient.getOrder());
+        return discoveryClient.getServices();
     }
 
 }

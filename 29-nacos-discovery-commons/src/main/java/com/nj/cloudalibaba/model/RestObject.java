@@ -1,4 +1,4 @@
-package com.bjpowernode.model;
+package com.nj.cloudalibaba.model;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package com.bjpowernode.service.configuration;
+package com.nj.cloudalibaba.service.configuration;
 
-import com.bjpowernode.service.fallback.EchoFeignServiceFallbackFactory;
-import com.bjpowernode.service.fallback.GoodsFeignServiceFallbackFactory;
+import com.nj.cloudalibaba.service.fallback.EchoFeignServiceFallbackFactory;
+import com.nj.cloudalibaba.service.fallback.GoodsFeignServiceFallbackFactory;
 import org.springframework.context.annotation.Bean;
 
 public class FeignConfiguration {

@@ -1,6 +1,6 @@
-package com.bjpowernode.service.fallback;
+package com.nj.cloudalibaba.service.fallback;
 
-import com.bjpowernode.service.EchoFeignService;
+import com.nj.cloudalibaba.service.EchoFeignService;
 import feign.hystrix.FallbackFactory;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;

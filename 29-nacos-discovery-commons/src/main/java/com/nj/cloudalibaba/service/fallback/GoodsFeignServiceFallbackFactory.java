@@ -1,7 +1,7 @@
-package com.bjpowernode.service.fallback;
+package com.nj.cloudalibaba.service.fallback;
 
-import com.bjpowernode.model.Goods;
-import com.bjpowernode.service.GoodsFeignService;
+import com.nj.cloudalibaba.model.Goods;
+import com.nj.cloudalibaba.service.GoodsFeignService;
 import feign.hystrix.FallbackFactory;
 
 import java.util.ArrayList;

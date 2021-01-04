@@ -1,4 +1,4 @@
-package com.bjpowernode.model;
+package com.nj.cloudalibaba.model;
 
 import java.math.BigDecimal;
 import java.util.Date;

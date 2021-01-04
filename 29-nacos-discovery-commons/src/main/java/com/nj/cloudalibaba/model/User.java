@@ -1,4 +1,4 @@
-package com.bjpowernode.model;
+package com.nj.cloudalibaba.model;
 
 public class User {
 
