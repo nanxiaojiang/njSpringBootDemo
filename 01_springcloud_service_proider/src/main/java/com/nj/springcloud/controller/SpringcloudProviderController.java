@@ -15,11 +15,11 @@ public class SpringcloudProviderController {
     @RequestMapping("/getProviderSpringCloud")
     public String getProviderSpringCloud(){
         //线程睡眠5S
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(5000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         return "providerSpringCloud9100!!!";
     }
 

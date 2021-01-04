@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
  * @date 2020/12/27 11:00
  */
 @SpringBootApplication
-@EnableZuulProxy
+@EnableZuulProxy        //开启zuul的API网关功能
 public class SpringCloudZuulApplication {
 
     public static void main(String[] args) {
