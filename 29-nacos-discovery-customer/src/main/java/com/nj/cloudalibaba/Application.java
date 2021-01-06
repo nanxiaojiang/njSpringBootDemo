@@ -17,7 +17,7 @@ public class Application {
      * ribbon负载均衡，默认是轮询
      * @return
      */
-//    @LoadBalanced
+    @LoadBalanced
     @Bean
     public RestTemplate restTemplate(){
         return new RestTemplate();

@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigController {
 
-    @Value("${user.name}")
+//    @Value("${user.name}")
     private String userName;
 
-    @Value("${user.age}")
+//    @Value("${user.age}")
     private String userAge;
 
     @Autowired
