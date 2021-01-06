@@ -156,4 +156,38 @@ public class RestTemplateController {
         return restTemplate.postForObject(serviceName + "/service/addUser", paramMap, User.class);
     }
 
+    /**
+     * PUT请求，有参数，无返回值
+     * @return
+     */
+    @RequestMapping("/web/updateUser")
+    public String updateUser(){
+
+        //要传的表单信息，参数数据（很坑人的），用普通HashMap包装参数，传不过去
+        MultiValueMap<String, Object> paramMap = new LinkedMultiValueMap<String, Object>();
+        paramMap.add("id",3002);
+        paramMap.add("name","wx");
+        paramMap.add("phone","300220022002");
+
+        restTemplate.put(serviceName + "/service/updateUser",paramMap);
+
+        return "success updateUser";
+    }
+
+    @RequestMapping("/web/deleteUser")
+    public String deleteUser(){
+        //定义数组
+        String[] userArry = {"101","nanjiang","18821611462"};
+        //定义map
+        Map<String, Object> paramMap = new ConcurrentHashMap<>();
+        paramMap.put("id",102);
+        paramMap.put("name","wuxiao");
+        paramMap.put("phone","18992384582");
+        restTemplate.delete(serviceName + "/service/deleteUser?id={0}&name={1}&phone={2}",userArry);
+
+        restTemplate.delete(serviceName + "/service/deleteUser?id={id}&name={name}&phone={phone}",paramMap);
+
+        return "success deleteUser";
+    }
+
 }

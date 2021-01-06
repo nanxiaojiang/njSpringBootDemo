@@ -13,15 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableFeignClients
 public class Application {
 
-    /**
-     * ribbon负载均衡，默认是轮询
-     * @return
-     */
-    @LoadBalanced
-    @Bean
-    public RestTemplate restTemplate(){
-        return new RestTemplate();
-    }
+
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
