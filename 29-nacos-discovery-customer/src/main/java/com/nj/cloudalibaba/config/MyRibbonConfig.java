@@ -1,9 +1,12 @@
 package com.nj.cloudalibaba.config;
 
 import com.alibaba.cloud.nacos.ribbon.NacosRule;
+import com.alibaba.cloud.sentinel.annotation.SentinelRestTemplate;
 import com.netflix.loadbalancer.IRule;
 import com.nj.cloudalibaba.ribbon.MyNacosRule;
 import com.nj.cloudalibaba.ribbon.MyNacosVersionRule;
+import com.nj.cloudalibaba.sentinel.MyBlockHandlerClass;
+import com.nj.cloudalibaba.sentinel.MyFallbackClass;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,6 +24,8 @@ public class MyRibbonConfig {
      * ribbon负载均衡，默认是：ZoneAvoidanceRule
      * @return
      */
+    @SentinelRestTemplate(blockHandler ="blockA" ,blockHandlerClass = MyBlockHandlerClass.class)    //服务限流
+//    @SentinelRestTemplate(fallback = "fallbackA",fallbackClass = MyBlockHandlerClass.class)     //服务降级
     @LoadBalanced
     @Bean
     public RestTemplate restTemplate(){

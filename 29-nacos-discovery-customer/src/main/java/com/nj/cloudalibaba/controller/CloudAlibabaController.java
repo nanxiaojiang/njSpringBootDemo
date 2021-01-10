@@ -61,7 +61,7 @@ public class CloudAlibabaController {
         return "nanjiang";
     }
 
-    @GetMapping("/notFound-feign")
+//    @GetMapping("/notFound-feign")
     public String notFound() {
         return echoFeignService.notFound();
     }

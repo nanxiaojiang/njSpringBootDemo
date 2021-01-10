@@ -49,6 +49,8 @@ public class EchoController {
 
     @GetMapping("/notFound")
     public String notFound() {
+        //测试异常比列和异常数目
+//        int a = 10/0;
         System.out.println("provider 1 .........");
         return "notFound";
     }

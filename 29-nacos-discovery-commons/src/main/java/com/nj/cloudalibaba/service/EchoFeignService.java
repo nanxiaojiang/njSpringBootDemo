@@ -2,12 +2,14 @@ package com.nj.cloudalibaba.service;
 
 import com.nj.cloudalibaba.service.configuration.FeignConfiguration;
 import com.nj.cloudalibaba.service.fallback.EchoFeignServiceFallbackFactory;
+import com.nj.cloudalibaba.service.fallback.EchoServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(name = "29-nacos-discovery-provider",
+//        fallback = EchoServiceFallback.class,
         fallbackFactory = EchoFeignServiceFallbackFactory.class,
         configuration = FeignConfiguration.class)
 public interface EchoFeignService {

@@ -5,7 +5,7 @@
 
     <groupId>com.nj.cloudalibaba</groupId>
     <artifactId>29-nacos-discovery-commons</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <name>29-nacos-discovery-commons</name>
     <description>29-nacos-discovery-commons project for Spring Boot</description>
