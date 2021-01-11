@@ -9,6 +9,8 @@ import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * @author 南江
  * @Description: ${todo}
@@ -24,11 +26,28 @@ public class CloudAlibabaController {
     private RestTemplate restTemplate;
 
     //feign 的声明式调用
-    @Autowired(required = true)
+    @Autowired
     private EchoFeignService echoFeignService;
 
     @Autowired
     private DiscoveryClient discoveryClient;
+
+
+    @GetMapping("/index")
+    public String index(HttpServletRequest request) throws Exception {
+		/*for (int i=0; i<2; i++) {
+			String result = restTemplate.getForObject("http://29-nacos-discovery-provider/", String.class);
+			System.out.println("调用远程服务结果：" + System.currentTimeMillis() + result);
+			//TimeUnit.SECONDS.sleep(1);
+		}*/
+        System.out.println("X-Request-Id = " + request.getHeader("X-Request-Id"));
+
+        System.out.println("X-Request-red = " + request.getHeader("X-Request-red"));
+
+        System.out.println("color = " + request.getParameter("color"));
+
+        return restTemplate.getForObject("http://29-nacos-discovery-provider/", String.class);
+    }
 
     /**
      * 使用这种方式不需要@LoadBalanced

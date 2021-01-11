@@ -1,0 +1,78 @@
+#启动端口
+server:
+  port: 80
+
+#spring boot actuator 监控端点
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    jmx:
+      exposure:
+        include: '*'
+    web:
+      exposure:
+        include: '*'
+  health:
+    sentinel:
+      enabled: false
+
+
+spring:
+  application:
+    #服务名字
+    name: 29-nacos-discovery-spring-cloud-gateway
+
+  cloud:
+    #配置网关
+    gateway:
+      discovery:
+        locator:
+          enabled: true #启用DiscoveryClient网关集成，可以实现服务的发现
+
+      #配置网关路由转发规则
+      routes:
+        - id: route1
+          uri: lb://29-nacos-discovery-customer
+          predicates: #谓词：判断，是不是？对不对？是否匹配？
+            #- Path=/test2, /notFound-feign, /index, /echo
+            #- After=2021-02-12T00:27:04.095+08:00[Asia/Shanghai]
+            #- Before=2021-01-12T00:27:04.095+08:00[Asia/Shanghai]
+            #- Between=2021-02-10T00:27:04.095+08:00[Asia/Shanghai], 2021-02-11T00:27:04.095+08:00[Asia/Shanghai]
+            #- Cookie=token, ch.p
+            #- Header=X-Request-Id, \d+
+            - Query=token
+            #- Query=color,red
+
+          filters:
+            - AddRequestHeader=X-Request-red, blue
+            - AddRequestHeader=X-Request-Id, 12345
+            - AddRequestParameter=color, black
+
+        - id: route2
+          uri: lb://29-nacos-discovery-customer
+          predicates:
+            - Path=/test*/**   # /test01/abc/123
+
+        - id: route3
+          uri: lb://29-nacos-discovery-provider
+          predicates:
+            - Path=/service/**
+
+          filters:
+            - AddRequestHeader=X-Request-Id, 12345
+
+
+    #服务注册发现的nacos
+    nacos:
+      discovery:
+        server-addr: 47.110.237.194:8801,47.110.237.194:8802,47.110.237.194:8803
+      password: nacos
+      username: nacos
+
+    #sentinel dashboard管理后台
+    sentinel:
+      eager: true
+      transport:
+        dashboard: 192.168.25.1:8080

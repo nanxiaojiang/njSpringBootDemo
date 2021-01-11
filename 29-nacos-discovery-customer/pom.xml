@@ -86,6 +86,11 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
             <version>2.2.2.RELEASE</version>
         </dependency>
+        <!--sentinel数据持久化-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
 
 
     </dependencies>
