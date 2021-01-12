@@ -36,19 +36,22 @@ spring:
         - id: route1
           uri: lb://29-nacos-discovery-customer
           predicates: #谓词：判断，是不是？对不对？是否匹配？
-            #- Path=/test2, /notFound-feign, /index, /echo
+            - Path=/test2, /notFound-feign, /index, /echo
             #- After=2021-02-12T00:27:04.095+08:00[Asia/Shanghai]
             #- Before=2021-01-12T00:27:04.095+08:00[Asia/Shanghai]
             #- Between=2021-02-10T00:27:04.095+08:00[Asia/Shanghai], 2021-02-11T00:27:04.095+08:00[Asia/Shanghai]
             #- Cookie=token, ch.p
             #- Header=X-Request-Id, \d+
-            - Query=token
+            #- Query=token
             #- Query=color,red
+            - Token=123456
+            #- AccessTime=下午6:00, 上午6:00
 
           filters:
             - AddRequestHeader=X-Request-red, blue
             - AddRequestHeader=X-Request-Id, 12345
             - AddRequestParameter=color, black
+            - RequestLog=prefix, gatewaytest #自定义的filter
 
         - id: route2
           uri: lb://29-nacos-discovery-customer
@@ -76,3 +79,21 @@ spring:
       eager: true
       transport:
         dashboard: 192.168.25.1:8080
+
+      #配置sentinel规则持久化到nacos
+      datasource:
+        flow:     #流控
+          nacos:
+            server-addr: 47.110.237.194:80
+            data-id: ${spring.application.name}-flow.json
+            group-id: DEFAULT_GROUP
+            rule-type: flow
+            data-type: json
+
+        degrade:
+          nacos:    #降级
+            server-addr: 47.110.237.194:80
+            data-id: ${spring.application.name}-degrade.json
+            group-id: DEFAULT_GROUP
+            rule-type: degrade
+            data-type: json

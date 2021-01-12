@@ -19,7 +19,7 @@ public class RestTemplateController {
         String header = request.getHeader("X-Request-Id");
 
         //进行业务处理（省略）
-        System.out.println("服务提供者1-->/service/hello -->" + header);
+        System.out.println("服务提供者2-->/service/hello -->" + header);
         return "Hello, Spring Cloud，Provider";
     }
 
