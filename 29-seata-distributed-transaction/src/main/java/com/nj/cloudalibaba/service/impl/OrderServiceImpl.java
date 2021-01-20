@@ -57,7 +57,7 @@ public class OrderServiceImpl implements OrderService {
 
         log.info("下订单: {}", order.getId());
         //出异常就会回滚，如果try catch抓取异常就不会回滚
-        int a= 10/0;
+//        int a= 10/0;
 
         // 返回订单编号
         return order.getId();
