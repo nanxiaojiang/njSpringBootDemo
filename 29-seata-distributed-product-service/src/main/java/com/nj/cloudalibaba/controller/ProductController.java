@@ -24,7 +24,6 @@ public class ProductController {
     public Product reduceStock(@RequestParam("productId") Integer productId, @RequestParam("amount") Integer amount) throws Exception {
 
         log.info("减库存请求, 商品:{}, 价格:{}", productId, amount);
-
         return productService.reduceStock(productId, amount);
     }
 }

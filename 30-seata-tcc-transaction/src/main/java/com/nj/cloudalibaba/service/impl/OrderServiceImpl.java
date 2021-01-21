@@ -1,11 +1,12 @@
 package com.nj.cloudalibaba.service.impl;
 
-import com.nj.cloudalibaba.feign.FeignAccountService;
-import com.nj.cloudalibaba.feign.FeignProductService;
+import com.baomidou.dynamic.datasource.annotation.DS;
 import com.nj.cloudalibaba.mapper.OrdersMapper;
 import com.nj.cloudalibaba.model.Orders;
 import com.nj.cloudalibaba.model.Product;
+import com.nj.cloudalibaba.service.AccountService;
 import com.nj.cloudalibaba.service.OrderService;
+import com.nj.cloudalibaba.service.ProductService;
 import io.seata.core.context.RootContext;
 import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
@@ -17,21 +18,22 @@ import java.math.BigDecimal;
 /**
  * @author 南江
  * @Description: ${todo}
- * @date 2021/1/18 1:20
+ * @date 2021/1/17 18:46
  */
-@Service
 @Slf4j
+@Service
 public class OrderServiceImpl implements OrderService {
+
     @Autowired
     private OrdersMapper ordersMapper;
 
     @Autowired
-    private FeignAccountService feignAccountService;
+    private AccountService accountService;
 
     @Autowired
-    private FeignProductService feignProductService;
+    private ProductService productService;
 
-
+    @DS("order-ds")
     @GlobalTransactional    //seata全局事务注解
     public Integer createOrder(Integer userId, Integer productId) throws Exception {
         // 购买数量暂时设置为 1
@@ -40,10 +42,10 @@ public class OrderServiceImpl implements OrderService {
         log.info("当前 XID: {}", RootContext.getXID());
 
         // 减库存
-        Product product = feignProductService.reduceStock(productId, amount);
+        Product product = productService.reduceStock(productId, amount);
 
         // 减余额
-        feignAccountService.reduceBalance(userId, product.getPrice());
+        accountService.reduceBalance(userId, product.getPrice());
 
         // 下订单
         Orders order = new Orders();
