@@ -17,6 +17,9 @@ public class SenderService {
     @Autowired
     private Source source;
 
+    @Autowired
+    private MySource mySource;
+
     /**
      * 发送消息的方法
      * @param message
@@ -24,5 +27,25 @@ public class SenderService {
     public void sendMessage(String message){
         boolean send = source.output().send(MessageBuilder.withPayload(message).build());
         System.out.println(send);
+    }
+
+    /**
+     * 自定义发送消息
+     * @param message
+     */
+    public void muliMessage(String message){
+        //源码发送消息
+        boolean send = source.output().send(MessageBuilder.withPayload(message).build());
+        System.out.println(send);
+
+        //自定义MySource.output1发送消息
+        boolean send1 = mySource.output1().send(MessageBuilder.withPayload(message).build());
+        System.out.println(send1);
+
+        //自定义MySource.output1发送消息
+        boolean send2 = mySource.output2().send(MessageBuilder.withPayload(message).build());
+        System.out.println(send2);
+
+
     }
 }
